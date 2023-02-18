@@ -6,6 +6,7 @@ public class Weapon : Item
     public Weapon(int id, string name, string namePlural, int minDamage, int maxDamage)
         : base(id, name, namePlural)
     {
+        // voeg alleen de damage toe aan de items
         MinimumDamage = minDamage;
         MaximumDamage = maxDamage;
     }
