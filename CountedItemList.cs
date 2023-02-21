@@ -7,7 +7,12 @@ public class CountedItemList
 
   }
 
-  public void AddItem(CountedItem newitem)
+  public void AddItem(Item newitem)
+  {
+    TheCountedItemList.Add(new CountedItem(newitem, 1));
+  }
+
+  public void AddCountedItem(CountedItem newitem)
   {
     TheCountedItemList.Add(newitem);
   }
