@@ -4,11 +4,15 @@ public class CountedItemList
 
   public CountedItemList()
   {
-    
+
   }
 
   public void AddItem(CountedItem newitem)
   {
+    TheCountedItemList.Add(newitem);
+  }
+
+  public void AddCountedItem(CountedItem newitem) {
     TheCountedItemList.Add(newitem);
   }
 }
