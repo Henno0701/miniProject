@@ -1,0 +1,15 @@
+C:\Users\henno\OneDrive\Documenten\Mini-Project\miniProject\bin\Debug\net6.0\miniProject.exe
+C:\Users\henno\OneDrive\Documenten\Mini-Project\miniProject\bin\Debug\net6.0\miniProject.deps.json
+C:\Users\henno\OneDrive\Documenten\Mini-Project\miniProject\bin\Debug\net6.0\miniProject.runtimeconfig.json
+C:\Users\henno\OneDrive\Documenten\Mini-Project\miniProject\bin\Debug\net6.0\miniProject.dll
+C:\Users\henno\OneDrive\Documenten\Mini-Project\miniProject\bin\Debug\net6.0\miniProject.pdb
+C:\Users\henno\OneDrive\Documenten\Mini-Project\miniProject\obj\Debug\net6.0\miniProject.csproj.AssemblyReference.cache
+C:\Users\henno\OneDrive\Documenten\Mini-Project\miniProject\obj\Debug\net6.0\miniProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henno\OneDrive\Documenten\Mini-Project\miniProject\obj\Debug\net6.0\miniProject.AssemblyInfoInputs.cache
+C:\Users\henno\OneDrive\Documenten\Mini-Project\miniProject\obj\Debug\net6.0\miniProject.AssemblyInfo.cs
+C:\Users\henno\OneDrive\Documenten\Mini-Project\miniProject\obj\Debug\net6.0\miniProject.csproj.CoreCompileInputs.cache
+C:\Users\henno\OneDrive\Documenten\Mini-Project\miniProject\obj\Debug\net6.0\miniProject.dll
+C:\Users\henno\OneDrive\Documenten\Mini-Project\miniProject\obj\Debug\net6.0\refint\miniProject.dll
+C:\Users\henno\OneDrive\Documenten\Mini-Project\miniProject\obj\Debug\net6.0\miniProject.pdb
+C:\Users\henno\OneDrive\Documenten\Mini-Project\miniProject\obj\Debug\net6.0\miniProject.genruntimeconfig.cache
+C:\Users\henno\OneDrive\Documenten\Mini-Project\miniProject\obj\Debug\net6.0\ref\miniProject.dll
