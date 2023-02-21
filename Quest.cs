@@ -7,15 +7,17 @@ public class Quest
     public int RewardGold { get; set; }
     public Item RewardItem { get; set; }
     public Weapon RewardWeapon { get; set; }
-    public List<QuestCompletionItem> QuestCompletionItems { get; set; }
+    public CountedItemList QuestCompletionItems;
 
-    public Quest(int id, string name, string description, int rewardExperiencePoints, int rewardGold)
+    public Quest(int id, string name, string description, int rewardExperiencePoints, int rewardGold, Item rewarditem, Weapon rewardweapon)
     {
         Id = id;
         Name = name;
         Description = description;
         RewardExperiencePoints = rewardExperiencePoints;
         RewardGold = rewardGold;
-        QuestCompletionItems = new List<QuestCompletionItem>();
+        RewardItem = rewarditem;
+        RewardWeapon = rewardweapon;
+        QuestCompletionItems = new CountedItemList();
     }
 }

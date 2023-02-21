@@ -4,7 +4,7 @@ public class CountedItemList
 
   public CountedItemList()
   {
-
+    
   }
 
   public void AddItem(CountedItem newitem)

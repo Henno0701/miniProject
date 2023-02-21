@@ -1,6 +1,6 @@
 public class Location
 {
-    public int Id { get; set; }
+    public int ID { get; set; }
     public string Name { get; set; }
     public string Description { get; set; }
     public Item ItemRequiredToEnter { get; set; }
@@ -14,7 +14,7 @@ public class Location
     public Location(int id, string name, string description, Item itemRequiredToEnter, Quest questAvailableHere, Monster monsterLivingHere,
         Location locationToNorth, Location locationToEast, Location locationToSouth, Location locationToWest)
     {
-        Id = id;
+        ID = id;
         Name = name;
         Description = description;
         ItemRequiredToEnter = itemRequiredToEnter;

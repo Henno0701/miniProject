@@ -14,4 +14,8 @@ public class Player
     public Location CurrentLocation;
     public QuestList QuestLog;
     
+
+    public Player() {
+        
+    }
 }
