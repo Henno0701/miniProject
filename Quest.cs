@@ -1,6 +1,6 @@
 public class Quest
 {
-    public int Id { get; set; }
+    public int ID { get; set; }
     public string Name { get; set; }
     public string Description { get; set; }
     public int RewardExperiencePoints { get; set; }
@@ -11,7 +11,7 @@ public class Quest
 
     public Quest(int id, string name, string description, int rewardExperiencePoints, int rewardGold, Item rewarditem, Weapon rewardweapon)
     {
-        Id = id;
+        ID = id;
         Name = name;
         Description = description;
         RewardExperiencePoints = rewardExperiencePoints;

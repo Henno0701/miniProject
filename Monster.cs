@@ -19,7 +19,7 @@ public class Monster
         MaximumDamage = maximumDamage;
         RewardExperience = rewardExperience;
         RewardGold = rewardGold;
-        maximiumhitpoints = maximiumhitpoints;
+        MaximiumHitPoints = maximiumhitpoints;
         CurrentHitPoints = currentHitPoints;
     }
 }

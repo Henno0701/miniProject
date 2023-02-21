@@ -1,22 +1,25 @@
-namespace MiniProject;
 public class Location
 {
     public int ID { get; set; }
     public string Name { get; set; }
     public string Description { get; set; }
 
-    public int ItemName {get; set; }
+    public Item ItemRequiredToEnter {get; set; }
 
-    public int QuestId {get; set; }
-    public int MonsterId {get; set; }
+    public Quest QuestAvailableHere {get; set; }
+    public Monster MonsterLivingHere {get; set; }
+    public Location LocationToNorth;
+    public Location LocationToEast;
+    public Location LocationToWest;
+    public Location LocationToSouth;
 
-    public Location(int id, string name, string description, int itemname, int questid, int monsterid)
+    public Location(int id, string name, string description, Item itemrequiredtoenter, Quest questavailablehere, Monster monsterlivinghere)
     {
         ID = id;
         Name = name;
         Description = description;
-        ItemName = itemname;
-        QuestId = questid;
-        MonsterId = monsterid;
+        ItemRequiredToEnter = itemrequiredtoenter;
+        QuestAvailableHere = questavailablehere;
+        MonsterLivingHere = monsterlivinghere;
     }
 }
