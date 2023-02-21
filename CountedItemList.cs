@@ -6,4 +6,9 @@ public class CountedItemList
   {
 
   }
+
+  public void AddItem(CountedItem newitem)
+  {
+    TheCountedItemList.Add(newitem);
+  }
 }
